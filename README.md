@@ -1,9 +1,10 @@
-# ValueSauce
-PropEdge - Player Prop Betting Model
+# ValueSauce - PropEdge
+
+Player Prop Betting Model
 
 ## Overview
 
-ValueSauce is a Python-based statistical model for analyzing player prop bets in sports betting. It helps identify value betting opportunities by calculating expected values and probabilities based on historical player performance.
+ValueSauce (PropEdge) is a Python-based statistical model for analyzing player prop bets in sports betting. It helps identify value betting opportunities by calculating expected values and probabilities based on historical player performance.
 
 ## Features
 
@@ -131,11 +132,13 @@ model = PlayerPropModel(min_ev_threshold=0.10)
 
 ```
 ValueSauce/
-├── __init__.py              # Package initialization
-├── player_prop_model.py     # Core model implementation
-├── example_usage.py         # Usage examples
-├── requirements.txt         # Dependencies
-└── README.md               # This file
+├── .gitignore                  # Git ignore patterns
+├── __init__.py                 # Package initialization
+├── player_prop_model.py        # Core model implementation
+├── example_usage.py            # Usage examples
+├── test_player_prop_model.py   # Unit tests
+├── requirements.txt            # Dependencies
+└── README.md                   # This file
 ```
 
 ## Contributing

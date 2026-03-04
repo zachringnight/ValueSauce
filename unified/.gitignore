@@ -1,0 +1,33 @@
+# Data files (generated at runtime)
+data/cache.sqlite
+data/games/*.json
+data/player_logs/*.json
+data/odds/*.json
+data/injuries/*.json
+data/tracking/*.json
+*.db
+*.duckdb
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
